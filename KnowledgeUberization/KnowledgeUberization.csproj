@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <UserSecretsId>aspnet-KnowledgeUberization-D60AD0EC-27F0-4CAB-85A4-BBF26A9435F6</UserSecretsId>
+        <WebProject_DirectoryAccessLevelKey>0</WebProject_DirectoryAccessLevelKey>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Dapper" Version="2.0.90" />
+        <PackageReference Include="HotChocolate.AspNetCore" Version="12.0.0-preview.26" />
+        <PackageReference Include="MediatR" Version="9.0.0" />
+        <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.AzureAD.UI" Version="3.1.8" />
+        <PackageReference Include="Npgsql" Version="6.0.0-preview5" />
+        <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.1.4" />
+        <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.1.4" />
+        <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.1.4" />
+        <PackageReference Include="Unity.Microsoft.DependencyInjection" Version="5.11.5" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Common\Common.csproj" />
+    </ItemGroup>
+
+</Project>
